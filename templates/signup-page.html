@@ -1,0 +1,25 @@
+<h2>Signup</h2>
+<form method="post">
+	<br>
+	<label>
+                Username <input type="text" name="username" value="{{params['username']}}">
+        </label>
+        <error> {{params['err_username']}}</error>
+        <br>
+	<label>
+                Password <input type="password" name="password" value="">
+        </label>
+        <error> {{params['err_password']}}</error>
+        <br>
+        <label>
+                Verify password <input type="password" name="verify" value="">
+        </label>
+        <error> {{params['err_verify']}}</error>
+        <br>
+        <label>
+                Email (optional) <input type="text" name="email" value="{{params['email']}}">
+        </label>
+        <error> {{params['err_email']}}</error>
+        <br>
+	<input type="submit">
+</form>

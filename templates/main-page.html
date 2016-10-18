@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+<b>My New Blog</b><br><br>
+    {% for post in query %}
+        {{ post.subject }} ____ {{ post.created }} ____  by {{post.username}} <br>
+        <br>
+        {{ post.content }}
+        <br>
+        <br>
+    {% endfor %}
+</body>
+</html>

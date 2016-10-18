@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+	<form method="post">
+		<label>
+			post title <br>
+			<input type="text" name="subject" value="{{subject}}">
+		</label>
+		<br><br>
+		<label>
+			post body <br>
+			<textarea name="content">{{content}}</textarea>
+		</label>
+        <br>
+        {{error}}
+        <br>
+	    <input type="submit">
+
+	</form>
+</html>

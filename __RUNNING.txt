@@ -1,0 +1,2 @@
+cd C:\Program Files (x86)\Google\google_appengine
+appcfg.py -A udacity-blog-1234 update E:\Code\udacity_course\udacity-blog
